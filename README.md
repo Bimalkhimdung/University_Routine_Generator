@@ -52,8 +52,7 @@ at random to crossover in order to produce superior offspring.
 
 mutation may be defined as a small random tweak in the chromosome, to get a new solution. It is used to maintain and introduce diversity in the genetic population and is usually applied with a low probability. If the probability is very high, the GA gets reduced to a random search.
 
-
-# Output Sample 
+## Output Sample
 
 Output routine for First Year computer
 
@@ -70,3 +69,16 @@ Teacher Routine Sample
 
 
 Overall, it was an exciting and challenging project that allowed us to apply our skills and knowledge to real-world problems. I am proud of the outcome and what our team accomplished together.
+
+# Installation Process
+
+You can clone the project as well as download  from https://github.com/Bimalkhimdung/Major_Project.git.
+
+Programming language Used: Python(Dango Framework), HTML, CSS, JavaScript,SQL, MySQL.
+
+You can also install all requiremts using requiremts.txt file.
+
+Once you have directed to project file location open terminal to that directory and type  : 
+ -> pip install -r requiremts.txt
+
+if you have any problem contact me at: (https://twitter.com/bimal_khimdung)
