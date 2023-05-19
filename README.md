@@ -1,4 +1,6 @@
-As part of my final year project, my team(Aashis Shah,Basanta Gurung, Milan Maharjan) and I (Bimal Rai) developed an "Automatic Routine Generator using Genetic Algorithm". The aim of the project was to tackle the complex problem of creating timetables for institutes that deal with theory classes, laboratory classes, tutorials, and breaks.
+As part of my final year project, My team(Aashis Shah,Basanta Gurung, Milan Maharjan) and I (Bimal Rai) developed an "Automatic Routine Generator using Genetic Algorithm". The aim of the project was to tackle the complex problem of creating timetables for Unversity that deal with theory classes, laboratory classes and breaks.
+
+# Project Overview
 
 Our team used the genetic algorithm to optimize the general university course scheduling process. Our system generates the routine based on provided inputs such as teacher details, classroom details, and lab details. The system generates each class routine as well as individual teacher routine in PDF form which can be downloaded and printed.
 
