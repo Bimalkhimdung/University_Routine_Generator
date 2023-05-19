@@ -1,0 +1,44 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Login</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="icon" type="image/png" href="{% static 'routine/img/logo.png' %}">
+
+<link rel="stylesheet" type="text/css" href="{% static 'routine/js/bootstrap.min.js' %}">
+
+<link rel="stylesheet" type="text/css" href="{% static 'routine/css/mainforlogin.css' %}">
+
+<meta name="robots" content="noindex, follow">
+</head>
+<body>
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100 p-b-160 p-t-50">
+				<form action="" method="post" class="login100-form validate-form"> <span class="login100-form-title p-b-43"> Account Login </span>
+					{% csrf_token %}
+                    <div class="wrap-input100 rs1 validate-input" data-validate="Username is required"> <input class="input100" id="id_username" type="text" autocomplete="username" autocapitalize="none" name="username" required> <label for="id_username">Username:</label> </div>
+					<div class="wrap-input100 rs2 validate-input" data-validate="Password is required"> <input class="input100" id="id_password" type="password" autocomplete="current-password" name="password" required> <label for="id_password">Password:</label> </div>
+					<div class="container-login100-form-btn"> <button class="login100-form-btn"> Sign in </button> </div>
+					<div class="text-center w-full p-t-23"> </div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+<script src="{% static 'routine/js/mainforlogin.js' %}"></script>
+<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-23581568-13');
+	</script>
+<script defer="" src="./login_files/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon="{&quot;rayId&quot;:&quot;78fa246d3ec29e80&quot;,&quot;token&quot;:&quot;cd0b4b3a733644fc843ef0b185f98241&quot;,&quot;version&quot;:&quot;2022.11.3&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
