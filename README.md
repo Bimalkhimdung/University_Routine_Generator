@@ -6,9 +6,10 @@ As part of my final year project, My team developed an "Automatic Routine Genera
 - Bimal Rai ( 075/BCT/08 )
 - Milan Maharjan ( 075/BCT/14 )
 
-![](/Image%20for%20redme/Major%20Project.png)
+
 # Project Overview
 
+![](/Image%20for%20redme/Major%20Project.png)
 
 
 
