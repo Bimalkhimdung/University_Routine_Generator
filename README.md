@@ -9,13 +9,28 @@ As part of my final year project, My team developed an "Automatic Routine Genera
 
 # Project Overview
 
-![](/Image%20for%20redme/Major%20Project.png)
+![Project Landing page ](/Image%20for%20redme/Major%20Project.png)
 
+We have  used the **genetic algorithm** to optimize the general university course scheduling process. Our system generates the routine based on provided inputs such as teacher details, classroom details and lab details. The system generates each class routine as well as individual teacher routine in PDF form which can be downloaded and printed.
 
+The genetic algorithm we used involved iterative processes of generating population, crossover, and mutation until the optimal solution was generated. The algorithm took inputs as constraints, and depending on whether the constraints were essential or desirable, they were categorized as "hard" and "soft" respectively. Hard Constraints are those which is most satisfy in order to genereate routine where Soft constraints are those contraints whitout this routine can be generated
 
-Our team used the genetic algorithm to optimize the general university course scheduling process. Our system generates the routine based on provided inputs such as teacher details, classroom details, and lab details. The system generates each class routine as well as individual teacher routine in PDF form which can be downloaded and printed.
+**Hard Constraints**
+- Teacher can't have more than one class in same time period.
+- One class room can't hold diffrent classes/ Lan at same time.
+- Class room must have sufficent capacity for students.
+- Lab classes can't be assigned to a class if the lab is pre-occupied.
 
-The genetic algorithm we used involved iterative processes of generating population, crossover, and mutation until the optimal solution was generated. The algorithm took inputs as constraints, and depending on whether the constraints were essential or desirable, they were categorized as "hard" and "soft" respectively.
+**Soft Constraints**
+
+- Some classes may need to be scheluled in a particular time.
+- Giving 50-minute break after every two class.
+- Every leacturer has minimum and maximum limit of weekly workhour.
+
+### Genetic Algorithm 
+
+![Genetic Algorithm Process]
+
 
 We tackled the NP-Hard problem of course timetabling, and we used Darwin's theory of evolution as the basis for our genetic algorithm. Our project offers a unique solution to a complex problem and provides a feasible and optimized course timetable for educational institutions.
 
