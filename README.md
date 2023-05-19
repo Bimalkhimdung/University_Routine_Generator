@@ -53,12 +53,12 @@ at random to crossover in order to produce superior offspring.
 
 mutation may be defined as a small random tweak in the chromosome, to get a new solution. It is used to maintain and introduce diversity in the genetic population and is usually applied with a low probability. If the probability is very high, the GA gets reduced to a random search.
 
-<<<<<<< HEAD
+
 ## Output Sample
-=======
+
 
 # Output Sample
->>>>>>> 41ee7525eebeee982104b0bb8150db848f6bbbd1
+
 
 Output routine for First Year computer
 
