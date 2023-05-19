@@ -88,3 +88,4 @@ Once you have directed to project file location open terminal to that directory 
  -> pip install -r requiremts.txt
 
 if you have any problem contact me at: (https://twitter.com/bimal_khimdung)
+Thank You.
