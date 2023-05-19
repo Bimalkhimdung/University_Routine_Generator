@@ -36,6 +36,7 @@ Darwin’s theory of natural evolution. This algorithm reflects the process of n
 explanation of basic genetic algorithm steps are as follows:
 
 **Initial Population**
+
 The genetic algorithm starts by generating an initial population. This initial population consists of all the probable solutions to the given problem. The most popular technique for 
 initialization is the use of random binary strings. 
 
@@ -52,7 +53,12 @@ at random to crossover in order to produce superior offspring.
 
 mutation may be defined as a small random tweak in the chromosome, to get a new solution. It is used to maintain and introduce diversity in the genetic population and is usually applied with a low probability. If the probability is very high, the GA gets reduced to a random search.
 
+<<<<<<< HEAD
 ## Output Sample
+=======
+
+# Output Sample
+>>>>>>> 41ee7525eebeee982104b0bb8150db848f6bbbd1
 
 Output routine for First Year computer
 
