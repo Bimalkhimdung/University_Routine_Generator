@@ -61,7 +61,7 @@ Output routine for First Year computer
 
 Teacher Routine Sample
 
-![This is the routine for individual Teacher]
+![This is the routine for individual Teacher](/Image%20for%20redme/Teacher%20%20routine%20sample.png)
 
 
 
