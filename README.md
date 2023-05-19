@@ -1,10 +1,10 @@
-As part of my final year project, My team developed an "Automatic Routine Generator using Genetic Algorithm". The aim of the project was to tackle the complex problem of creating timetables for Unversity that deal with theory classes, laboratory classes and breaks.
+As part of my final year project, My team developed an "Automatic Routine Generator using Genetic Algorithm". The aim of the project was to tackle the complex problem of creating timetables for Unversity that deal with theory classes, laboratory classes and breaks.The project is desined to generate routine for only Computer Department of National College of Engineering.
 
 **Team Members**
-- Aashis Shah ( 075/BCT/03 )
+- Aashis Shah ( 075/BCT/03 ) 
 - Basanta Gurung ( 075/BCT/07 )
-- Bimal Rai ( 075/BCT/08 )
-- Milan Maharjan ( 075/BCT/14 )
+- Bimal Rai ( 075/BCT/08 ) @Bimalkhimdung
+- Milan Maharjan ( 075/BCT/14 ) 
 
 
 # Project Overview
@@ -29,9 +29,44 @@ The genetic algorithm we used involved iterative processes of generating populat
 
 ### Genetic Algorithm 
 
-![Genetic Algorithm Process]
+![Genetic Algorithm Process](/Image%20for%20redme/Genetic%20Algorithm.png)
+
+Genetic algorithms are a type of evolutionary algorithm that is inspired by the process of natural selection. Genetic algorithm is a computing method that simulates natural selection, which is a process in biological evolution. It is a search heuristic that is inspired by Charles 
+Darwin’s theory of natural evolution. This algorithm reflects the process of natural selection where the fittest individuals are selected for reproduction in order to produce offspring offspring of  the next generation. In genetic algorithm, a solution is referred to as a chromosome. The 
+explanation of basic genetic algorithm steps are as follows:
+
+**Initial Population**
+The genetic algorithm starts by generating an initial population. This initial population consists of all the probable solutions to the given problem. The most popular technique for 
+initialization is the use of random binary strings. 
+
+**Evaluation of Chromosome and Fitness**
+
+The fitness function helps in establishing the fitness of all individuals in the population. It assigns a fitness score to every individual, which further determines the probability of being chosen for reproduction. The higher the fitness score, the higher the chances of being chosen for reproduction. If the routine had maximum fitness i.e 480, the routne is selected , else if the fitness was less than 480 then the output is sent for crossover. The fitness score was deducted if the routines fail to meet the given constrains by 10 points.
+
+**Crossover**
+
+Crossover is a genetic operator used to vary the programming of a chromosome or chromosomes from one generation to the next. Two strings are picked from the mating pool 
+at random to crossover in order to produce superior offspring.
+
+**Mutation**
+
+mutation may be defined as a small random tweak in the chromosome, to get a new solution. It is used to maintain and introduce diversity in the genetic population and is usually applied with a low probability. If the probability is very high, the GA gets reduced to a random search.
 
 
-We tackled the NP-Hard problem of course timetabling, and we used Darwin's theory of evolution as the basis for our genetic algorithm. Our project offers a unique solution to a complex problem and provides a feasible and optimized course timetable for educational institutions.
+#Output Sample
+
+Output routine for First Year computer
+
+![This is the output sample for first year](/Image%20for%20redme/First%20Year%20Routine.png)
+
+Teacher Routine Sample
+
+![This is the routine for individual Teacher]
+
+
+
+
+
+
 
 Overall, it was an exciting and challenging project that allowed us to apply our skills and knowledge to real-world problems. I am proud of the outcome and what our team accomplished together.
