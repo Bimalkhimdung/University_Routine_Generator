@@ -5,7 +5,11 @@ As part of my final year project, My team developed an "Automatic Routine Genera
 - Basanta Gurung ( 075/BCT/07 )
 - Bimal Rai ( 075/BCT/08 )
 - Milan Maharjan ( 075/BCT/14 )
+
+![This is the Main landing Page of Our Project](/Image for redme/Major Project.png)
 # Project Overview
+
+
 
 
 Our team used the genetic algorithm to optimize the general university course scheduling process. Our system generates the routine based on provided inputs such as teacher details, classroom details, and lab details. The system generates each class routine as well as individual teacher routine in PDF form which can be downloaded and printed.
