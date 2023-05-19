@@ -36,6 +36,7 @@ Darwin’s theory of natural evolution. This algorithm reflects the process of n
 explanation of basic genetic algorithm steps are as follows:
 
 **Initial Population**
+
 The genetic algorithm starts by generating an initial population. This initial population consists of all the probable solutions to the given problem. The most popular technique for 
 initialization is the use of random binary strings. 
 
