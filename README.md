@@ -87,5 +87,5 @@ You can also install all requiremts using requiremts.txt file.
 Once you have directed to project file location open terminal to that directory and type  : 
  -> pip install -r requiremts.txt
 
-if you have any problem contact me at: (https://twitter.com/bimal_khimdung)
+if you need any information contact me at: bimalkhimdung@gmail.com
 Thank You.
